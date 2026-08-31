@@ -34,3 +34,6 @@ The original Game Design Document included a massive array of mechanics:
 I ultimately decided to step away from this project because the scope became overwhelmingly large for a solo developer. My ambitions for the grand-strategy aspects outgrew my available time. However, building this simulation served as a fantastic, deep dive into memory management, multithreading, and the complexities of the Unity DOTS environment. 
 
 It taught me invaluable lessons about project scoping and low-level optimization that I now apply to my C++ engine development.
+
+
+You can find this repository on my [GitHub](https://github.com/Marakuja15/Unity-Dots-BeeStrategy/tree/main).
