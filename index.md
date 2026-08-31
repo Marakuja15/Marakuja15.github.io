@@ -19,10 +19,12 @@ An ambitious real-time strategy and simulation game built entirely using **Unity
 * **Complex State Management:** Built AI behaviors for different roles (e.g., Scouts discovering new terrain, Pollen Collectors gathering resources) using ECS enableable components and dynamic tagging.
 * **Virtual Population & Economy:** Designed a background economy simulation managing nectar, wax, and population growth (handling thousands of virtual citizens before instantiating them as physical entities to save memory).
 * **Global Laws System:** A dynamic regime system where changing a law (e.g., "Military Law") instantly modifies the components and behaviors of thousands of active entities in real-time.
+
 #### Images
-![over 100 000 entities](assets/entities.png)
 * The game easily handles over 100 thousand moving and interacting entities (flowers and bees).
 *Note on Graphics/UI: I am a low-level programmer, not an artist. All game UI (built with UI Toolkit) and 3D assets were primarily AI-generated or used as placeholders to allow me to focus strictly on coding the engine logic.*
+![over 100 000 entities](assets/entities.png)
+
 
 #### Unfinished Features & Planned Scope
 The original Game Design Document included a massive array of mechanics:
