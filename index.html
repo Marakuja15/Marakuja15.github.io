@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Your Nickname</title>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { margin: 0; font-family: system-ui, sans-serif; background: #0f172a; color: #cbd5e1; line-height: 1.6; }
+        nav { background: rgba(30, 41, 59, 0.95); padding: 15px; position: sticky; top: 0; z-index: 100; border-bottom: 1px solid #334155; display: flex; justify-content: center; gap: 30px; backdrop-filter: blur(5px); }
+        nav a { color: #cbd5e1; text-decoration: none; font-weight: 500; font-size: 1.1rem; transition: color 0.2s; }
+        nav a:hover { color: #38bdf8; }
+        main { max-width: 900px; margin: 40px auto; padding: 0 20px; }
+        h1 { color: #f8fafc; font-size: 2.8rem; margin-bottom: 5px; }
+        .subtitle { font-size: 1.2rem; color: #94a3b8; margin-top: 0; margin-bottom: 40px; }
+        .category-title { color: #f8fafc; font-size: 1.8rem; border-bottom: 2px solid #38bdf8; display: inline-block; padding-bottom: 5px; margin-top: 60px; margin-bottom: 20px; }
+        .card { background: #1e293b; padding: 25px; border-radius: 8px; margin-bottom: 20px; border-left: 4px solid #38bdf8; transition: transform 0.2s; }
+        .card:hover { transform: translateX(5px); }
+        .card h3 { margin-top: 0; color: #f8fafc; font-size: 1.4rem; }
+        .tech-stack { display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap; }
+        .badge { background: #0f172a; padding: 5px 12px; border-radius: 4px; font-size: 0.9rem; border: 1px solid #334155; color: #38bdf8; }
+        .links a { display: inline-block; margin-top: 15px; color: #38bdf8; text-decoration: none; font-weight: bold; }
+        .links a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#engine">Custom Engine (C++)</a>
+        <a href="#unity">Unity</a>
+        <a href="#roblox">Roblox</a>
+    </nav>
+
+    <main>
+        <header>
+            <h1>Your Nickname / Name</h1>
+            <p class="subtitle">Game Engine & Gameplay Developer</p>
+            <p>Programmer based in Bytów focused on data-oriented design, performance optimization, and gameplay mechanics. Building custom tools from scratch and developing experiences in modern commercial engines.</p>
+        </header>
+
+        <section id="engine">
+            <h2 class="category-title">Custom Engine & C++</h2>
+            <div class="card">
+                <h3>ECS Engine with Raylib (WIP)</h3>
+                <p>A custom-built rendering and logic engine utilizing the Entity-Component-System architecture. Engineered using Sparse Sets to maximize CPU cache utilization and ensure high-performance entity iteration.</p>
+                <div class="tech-stack">
+                    <span class="badge">C++20</span>
+                    <span class="badge">Raylib</span>
+                    <span class="badge">CMake</span>
+                    <span class="badge">Data-Oriented Design</span>
+                </div>
+                <div class="links">
+                    <a href="GITHUB_LINK_HERE">View Source Code &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="unity">
+            <h2 class="category-title">Unity Projects</h2>
+            <div class="card">
+                <h3>Game / Prototype Title</h3>
+                <p>Short description of the core loop. The primary technical challenge involved programming enemy AI using NavMesh pathfinding and robust State Machines.</p>
+                <div class="tech-stack">
+                    <span class="badge">C#</span>
+                    <span class="badge">Unity 3D</span>
+                    <span class="badge">NavMesh</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="roblox">
+            <h2 class="category-title">Roblox Projects</h2>
+            <div class="card">
+                <h3>Multiplayer Experience</h3>
+                <p>Implemented client-server networking systems, persistent player data synchronization via DataStore, and server-side script optimization to prevent lag spikes with high player concurrency.</p>
+                <div class="tech-stack">
+                    <span class="badge">Luau</span>
+                    <span class="badge">Roblox Studio</span>
+                    <span class="badge">Client-Server Model</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
