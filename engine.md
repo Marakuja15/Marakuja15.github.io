@@ -1,8 +1,12 @@
-[Home](/) | [C++ Engine](engine.html) | [Unity](unity.html) | [Roblox](roblox.html)
+[Home](/) | [C++ Engine](engine.html) | [Unity](unity.html) | [Roblox](roblox.html) | [Engineering Thesis Project](thesis.html)
 
 ---
 
 ## Custom ECS-based Game Engine (C++ / Raylib)
-My main project is a custom game engine where I implemented a Data-Oriented architecture from scratch... *(describe how you implemented Sparse Sets here and why it performs faster, memory contiguousness, cache hits, etc.)*
+I am currently working on my own 2D game engine using **C++** and **raylib**. 
 
-You can find more of my code on my [GitHub](https://github.com/Marakuja15).
+The project is in its early research and architectural planning phase. Right now, I'm focusing on understanding engine design patterns, laying out the core architecture, and prototyping a clean **Entity-Component-System (ECS)** approach.
+
+> **Status:** Early development. Code hasn't been made public yet while the core architecture is taking shape, but updates and repository links will be published here once the base system is ready.
+
+In the meantime, you can check out my other projects on [GitHub](https://github.com/Marakuja15).

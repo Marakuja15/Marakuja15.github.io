@@ -1,4 +1,4 @@
-[Home](/) | [C++ Engine](engine.html) | [Unity](unity.html) | [Roblox](roblox.html)
+[Home](/) | [C++ Engine](engine.html) | [Unity](unity.html) | [Roblox](roblox.html) | [Engineering Thesis Project](thesis.html)
 
 ---
 
