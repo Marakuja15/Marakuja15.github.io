@@ -1,14 +1,21 @@
-[Home](/) | [C++ Engine](engine.html) | [Unity](unity.html) | [Roblox](roblox.html) | [Engineering Thesis Project](thesis.html)
-
+---
+layout: project
+title: Roblox gameplay systems
+description: Selected areas of commissioned Roblox development, including placement systems, simulator loops, and client-server gameplay.
+category: COMMISSIONED WORK · ROBLOX STUDIO
+summary: Gameplay loops, placement tools, and client-server systems built for Roblox experiences.
+status: Selected commissioned work
+tools:
+  - Lua
+  - Roblox Studio
+project_url: https://create.roblox.com/talent/creators/84000770
+project_link_label: Visit my Roblox Talent Hub profile
 ---
 
-## Roblox Development
+Most of my Roblox work has been commissioned. My Talent Hub profile has examples of projects, client feedback, and a fuller view of the work I’ve done on the platform.
 
-For a detailed showcase of what I've built, client feedback, and gameplay samples, check out my profile on the **Roblox Talent Hub**:  
-👉 **[Marakuja's Talent Hub Profile](https://create.roblox.com/talent/creators/84000770)** *(it best reflects the full scope of my work and past commissions)*.
+## Systems I’ve worked on
 
-### Key Focus & Mechanics
-My primary focus on the platform has been core gameplay systems and backend mechanics, including:
-- **Placement Systems:** Grid-based and free-form object placement, rotation, collision handling, and saving data.
-- **Simulator Mechanics:** Complete gameplay loops for various simulator-style games (gathering, inventory, upgrades, currency systems,).
-- **Core Scripting:** Client-server replication, optimized UI systems, and datastore management.
+- **Placement:** Grid and free-form placement, rotation, collision handling, and saving player-built objects.
+- **Simulator gameplay:** Gathering, inventory, upgrades, and currency systems that work together as a complete gameplay loop.
+- **Core scripting:** Client-server replication, UI systems, and datastore management.

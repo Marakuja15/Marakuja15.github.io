@@ -1,31 +1,33 @@
-[Home](/) | [C++ Engine](engine.html) | [Unity](unity.html) | [Roblox](roblox.html) | [Engineering Thesis Project](thesis.html)
-
+---
+layout: project
+title: Bee colony simulation
+description: A Unity DOTS strategy and simulation prototype focused on simulating a large population of bees and a changing colony economy.
+category: PERSONAL PROJECT · UNITY DOTS
+summary: A strategy and simulation prototype built around a large population of independently simulated bees.
+status: Paused
+tools:
+  - Unity
+  - C#
+  - Entities / DOTS
+media:
+  - type: image
+    src: /assets/entities.png
+    alt: Bee colony simulation with hive panels and an entity counter showing more than 100,000 entities.
+    caption: The simulation running with over 100,000 entities. Click the image to open the full screenshot.
+    fit: cover
+project_url: https://github.com/Marakuja15/Unity-Dots-BeeStrategy/tree/main
+project_link_label: View the project on GitHub
 ---
 
-## Unity DOTS Bee Colony Strategy
-An ambitious real-time strategy and simulation game built entirely using **Unity's Data-Oriented Technology Stack (DOTS)**. The goal was to simulate a massive, complex bee colony with thousands of independent units, a functioning economy, and dynamic laws, all running at high frame rates.
+## The idea
 
-#### What I Implemented
-* **High-Performance ECS Architecture:** Fully utilized the C# Job System and Burst Compiler to multithread thousands of bees simultaneously.
-* **Grid-Based Spatial Hashing:** Implemented a custom grid system for a "Fog of War" mechanic and highly optimized flower discovery for resource gathering.
-* **Complex State Management:** Built AI behaviors for different roles using ECS enableable components and dynamic tagging.
-* **Virtual Population & Economy:** Designed a background economy simulation managing nectar, wax, and population growth.
-* **Global Laws System:** A dynamic regime system where changing a law instantly modifies the components and behaviors of thousands of active entities.
+This Unity DOTS prototype was designed as a real-time strategy game and colony simulation. I wanted to see how far I could take a world with thousands of active bees, a working economy, and changing rules.
 
-#### Images
-* The game easily handles over 100 thousand moving and interacting entities.
-*Note on Graphics/UI: I am a low-level programmer, not an artist. All game UI and 3D assets were primarily AI-generated or used as placeholders to allow me to focus strictly on coding the engine logic.*
+## What I built
 
-![over 100 000 entities](assets/entities.png)
+- Used the C# Job System and Burst Compiler to update large groups of bees in parallel.
+- Made a grid-based spatial hash for flower discovery and fog of war.
+- Built bee roles and behaviors with ECS components and tags.
+- Simulated nectar, wax, and population growth, with laws that change colony behavior.
 
-#### Unfinished Features & Planned Scope
-The original Game Design Document included a massive array of mechanics:
-* Deep combat mechanics involving City Defenders and enemy invasions.
-* Complex societal management, including taxes, education limits, and various political regimes.
-
-#### Why The Project Was Halted
-I ultimately decided to step away from this project because the scope became overwhelmingly large for a solo developer. However, building this simulation served as a fantastic, deep dive into memory management, multithreading, and the complexities of the Unity DOTS environment. 
-
-It taught me invaluable lessons about project scoping and low-level optimization that I now apply to my C++ engine development.
-
-You can find this repository on my [GitHub](https://github.com/Marakuja15/Unity-Dots-BeeStrategy/tree/main).
+The original design also included combat, invasions, and more detailed society management. I stopped expanding the project when the scope became too large for a solo developer. The prototype was a useful lesson in DOTS, multithreading, memory management, and keeping a project within reach.

@@ -1,3 +1,6 @@
 theme: jekyll-theme-midnight
-title: Piotr- Portfolio
-description: Game Developer & Game Engine Developer
+title: Piotr — Game Programmer
+description: Game programmer from Poland, working on gameplay, simulation, and game systems in Unity, C++, and Roblox.
+lang: en
+exclude:
+  - MEDIA.md

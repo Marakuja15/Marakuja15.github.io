@@ -1,25 +1,32 @@
-[Home](/) | [C++ Engine](engine.html) | [Unity](unity.html) | [Roblox](roblox.html) | [Engineering Thesis Project](thesis.html)
-
+---
+layout: project
+title: SurvivalScan
+description: An engineering thesis project combining a survival game, webcam input, and real-time object detection in Unity.
+category: ENGINEERING THESIS · IN DEVELOPMENT
+summary: A survival game where objects seen through a webcam become in-game resources using real-time object detection.
+status: In development
+tools:
+  - Unity
+  - C#
+  - YOLOv8
+  - Unity Inference Engine
+project_url: https://github.com/Marakuja15/ProjektInz
+project_link_label: Follow the project on GitHub
 ---
 
-## SurvivalScan — Real-Time AI Object Detection Survival Game
-**Currently in Development (Engineering Thesis Project)**
+## The idea
 
-A hybrid survival game that bridges the physical and virtual worlds. The core mechanic requires players to use their webcam to scan real-life objects, which are processed in real-time by a Machine Learning model and converted into in-game resources. 
+SurvivalScan connects a game to the physical world. During a scavenging phase, the player scans real objects with a webcam. A machine-learning model identifies them and turns the detections into resources for the game.
 
-The primary research and engineering goal of this project is to integrate a robust ML object detection pipeline into a game engine while optimizing it for performance on hardware with limited computational power.
+The engineering challenge is fitting real-time inference into a responsive game loop, including careful handling of GPU readbacks and tensor memory. The model only needs to run during the scavenging phase, which helps keep the rest of the game free to run normally.
 
-#### What I Implemented (So Far)
-* **Real-Time ML Integration:** Successfully integrated the YOLOv8 object detection model into Unity using the Unity Inference Engine, processing live WebCamTexture feeds.
-* **Event-Driven Architecture:** Designed a decoupled system using C# events (`Action<T>`) where the ML inference module strictly handles detection and broadcasts results to the game logic layer without tight coupling.
-* **Dynamic Supply & Demand Economy:** Built a trading system where item values fluctuate based on player behavior (selling specific items crashes their value, while holding them allows the market to recover).
-* **SOLID System Design:** Architected the game loop using abstract base classes and polymorphism (e.g., for Unique Items and Encounters) to ensure the codebase remains scalable, modular, and open for extension without modifying core managers.
-* **Custom Deterministic RNG:** Implemented a centralized Random Number Generator to ensure predictable, reproducible states for testing complex survival mechanics.
+## What I’ve built
 
-#### The Engineering Challenge
-The biggest challenge lies not in the gameplay itself, but in the intersection of real-time AI inference and game loop performance. Running YOLOv8 consistently at a high frame rate alongside game logic requires careful management of GPU readbacks, tensor memory (preventing leaks), and limiting ML execution solely to the necessary "Scavenging Phase."
+- Integrated YOLOv8 object detection with a live `WebCamTexture` feed through the Unity Inference Engine.
+- Kept detection separate from game logic with C# events, so the inference code reports results without owning gameplay decisions.
+- Built a supply-and-demand trading system where selling an item affects its value and holding it lets the market recover.
+- Used shared base classes for encounters and unique items, and a centralized deterministic random-number generator for repeatable behavior.
 
-#### Current Project Status
-The foundational architecture, economy, and ML pipeline are fully functional. The current development focus is on fleshing out specific polymorphic classes (concrete Encounters and Unique Items) and building the overarching `DayPhaseManager` to orchestrate the transition between the active camera phase and the UI-driven management phase.
+## Current focus
 
-You can follow the progress of this project on my [GitHub](https://github.com/Marakuja15/ProjektInz).
+The detection pipeline, core architecture, and economy are in place. I’m working on concrete encounter and item types, then a `DayPhaseManager` to coordinate scavenging with the management phase.
