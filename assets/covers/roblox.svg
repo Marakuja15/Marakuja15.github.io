@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" fill="none">
+  <rect width="960" height="600" fill="#211c2b"/>
+  <path d="M0 0h960v600H0z" fill="url(#dots)"/>
+  <rect x="74" y="64" width="812" height="472" rx="4" stroke="#96718e" stroke-width="2"/>
+  <path d="M74 114h812" stroke="#96718e" stroke-width="2"/>
+  <circle cx="101" cy="90" r="6" fill="#d48396"/>
+  <circle cx="123" cy="90" r="6" fill="#d1ad70"/>
+  <circle cx="145" cy="90" r="6" fill="#8eb185"/>
+  <text x="174" y="96" fill="#d6c7d5" font-family="monospace" font-size="15" letter-spacing="2">PLACEMENT SYSTEMS / LUA</text>
+  <path d="m152 416 124-72 123 72-123 72-124-72Z" fill="#bd8195"/>
+  <path d="m276 344 123 72v104l-123-72V344Z" fill="#815b78"/>
+  <path d="m152 416 124 72v-104l-124-72v104Z" fill="#9d6b8b"/>
+  <path d="m401 365 103-60 103 60-103 60-103-60Z" fill="#d0ab76"/>
+  <path d="m504 305 103 60v88l-103-60v-88Z" fill="#9a785c"/>
+  <path d="m401 365 103 60v-88l-103-60v88Z" fill="#b28c68"/>
+  <path d="m607 416 88-52 88 52-88 52-88-52Z" fill="#8fa884"/>
+  <path d="m695 364 88 52v52l-88-52v-52Z" fill="#617c6f"/>
+  <path d="m607 416 88 52v-52l-88-52v52Z" fill="#78947b"/>
+  <text x="98" y="510" fill="#d6c7d5" font-family="monospace" font-size="14" letter-spacing="2">BUILD · ROTATE · SAVE</text>
+  <defs>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#a18aa7" fill-opacity=".2"/>
+    </pattern>
+  </defs>
+</svg>

@@ -1,5 +1,6 @@
 ---
 layout: project
+permalink: /unity.html
 title: Bee colony simulation
 description: A Unity DOTS strategy and simulation prototype focused on simulating a large population of bees and a changing colony economy.
 category: PERSONAL PROJECT · UNITY DOTS

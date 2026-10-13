@@ -1,5 +1,6 @@
 ---
 layout: project
+permalink: /roblox.html
 title: Roblox gameplay systems
 description: Selected areas of commissioned Roblox development, including placement systems, simulator loops, and client-server gameplay.
 category: COMMISSIONED WORK · ROBLOX STUDIO

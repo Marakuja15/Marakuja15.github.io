@@ -1,5 +1,6 @@
 ---
 layout: project
+permalink: /engine.html
 title: C++ game engine
 description: An early-stage 2D game engine built in C++17 with raylib and a custom entity-component-system architecture.
 category: PERSONAL PROJECT · C++ / RAYLIB

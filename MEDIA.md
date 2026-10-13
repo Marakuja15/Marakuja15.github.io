@@ -2,6 +2,17 @@
 
 Każdy projekt ma własny plik Markdown: `thesis.md`, `engine.md`, `unity.md` albo `roblox.md`. Treść opisu możesz edytować bezpośrednio w takim pliku. Zdjęcia i filmy dodaje się w sekcji `media` na samej górze, między liniami `---`.
 
+## Podgląd strony bez pushowania
+
+Otwórz terminal w folderze repozytorium i uruchom:
+
+```powershell
+npm install        # tylko za pierwszym razem
+npm run preview
+```
+
+Otwórz `http://localhost:8080` w przeglądarce. Serwer przebuduje stronę i odświeży podgląd po zapisaniu zmian w Markdownie, CSS-ie lub multimediach. Zatrzymaj go skrótem `Ctrl+C` w terminalu.
+
 ## Zdjęcie
 
 Skopiuj plik do folderu `assets`, a potem dodaj wpis:

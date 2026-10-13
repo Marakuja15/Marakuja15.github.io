@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" fill="none">
+  <rect width="960" height="600" fill="#20202d"/>
+  <path d="M0 0h960v600H0z" fill="url(#grid)"/>
+  <rect x="74" y="64" width="812" height="472" rx="4" stroke="#77718d" stroke-width="2"/>
+  <path d="M74 114h812" stroke="#77718d" stroke-width="2"/>
+  <circle cx="101" cy="90" r="6" fill="#d48396"/>
+  <circle cx="123" cy="90" r="6" fill="#d1ad70"/>
+  <circle cx="145" cy="90" r="6" fill="#8eb185"/>
+  <text x="174" y="96" fill="#d1cad9" font-family="monospace" font-size="15" letter-spacing="2">RAYLIB / ECS TEST SCENE</text>
+  <path d="M132 445h690" stroke="#9183a0" stroke-width="3"/>
+  <path d="M132 446h690v38H132z" fill="#51455c"/>
+  <path d="M132 484h690" stroke="#897092" stroke-width="2"/>
+  <path d="M196 360h96v84h-96z" fill="#806d9b"/>
+  <path d="M292 396h96v48h-96z" fill="#ad718d"/>
+  <path d="M658 336h96v108h-96z" fill="#73899c"/>
+  <path d="M754 384h68v60h-68z" fill="#8d9d76"/>
+  <path d="M461 352h48v48h-48z" fill="#e0bf75"/>
+  <path d="M473 400h24v44h-24z" fill="#c68872"/>
+  <path d="M461 370h14v14h-14zm34 0h14v14h-14z" fill="#282431"/>
+  <text x="98" y="510" fill="#c8c1d0" font-family="monospace" font-size="14" letter-spacing="2">ENTITIES · COMPONENTS · SYSTEMS</text>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0v48" stroke="#77718d" stroke-opacity=".16" stroke-width="1"/>
+    </pattern>
+  </defs>
+</svg>

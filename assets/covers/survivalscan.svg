@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" fill="none">
+  <rect width="960" height="600" fill="#211d29"/>
+  <path d="M0 440 206 350l137 62 195-174 191 95 231-126v393H0V440Z" fill="#30273a"/>
+  <path d="M0 506 206 416l137 62 195-174 191 95 231-126v327H0v-94Z" fill="#3c3046"/>
+  <rect x="74" y="64" width="812" height="472" rx="4" stroke="#806786" stroke-width="2"/>
+  <path d="M74 114h812" stroke="#806786" stroke-width="2"/>
+  <circle cx="101" cy="90" r="6" fill="#cd8caa"/>
+  <circle cx="123" cy="90" r="6" fill="#d3b06b"/>
+  <circle cx="145" cy="90" r="6" fill="#8caf83"/>
+  <text x="174" y="96" fill="#d3c6d4" font-family="monospace" font-size="15" letter-spacing="2">SURVIVALSCAN / SCAVENGE</text>
+  <path d="M382 195h196v196H382z" stroke="#d6bd83" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M411 224h138v138H411z" stroke="#d6bd83" stroke-opacity=".38" stroke-width="1" stroke-dasharray="5 7"/>
+  <path d="M480 182v42m0 168v42m-83-125h42m82 0h42" stroke="#d6bd83" stroke-width="2"/>
+  <path d="m458 306 22-34 22 34v42h-44v-42Z" fill="#bd8c65" stroke="#e5c48b" stroke-width="3"/>
+  <path d="M467 305h26m-22 14h18m-22 14h26" stroke="#714d46" stroke-width="4"/>
+  <path d="M98 462h184" stroke="#806786" stroke-width="2"/>
+  <text x="98" y="495" fill="#d4c4d6" font-family="monospace" font-size="14" letter-spacing="2">CAMERA INPUT</text>
+  <text x="713" y="495" fill="#d4c4d6" font-family="monospace" font-size="14" letter-spacing="2">UNITY / YOLOV8</text>
+</svg>

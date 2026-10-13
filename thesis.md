@@ -1,5 +1,6 @@
 ---
 layout: project
+permalink: /thesis.html
 title: SurvivalScan
 description: An engineering thesis project combining a survival game, webcam input, and real-time object detection in Unity.
 category: ENGINEERING THESIS · IN DEVELOPMENT
