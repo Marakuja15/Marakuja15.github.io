@@ -18,9 +18,21 @@ description: Software developer from Poland working across software systems, int
       </div>
       <div class="work-list">
         <article class="work-card">
+          <a class="work-cover" href="{{ '/unity.html' | relative_url }}" aria-label="Open bee colony simulation project">
+            <img src="{{ '/assets/entities.png' | relative_url }}" alt="Bee colony simulation interface with more than 100,000 entities." loading="lazy">
+            <span class="cover-index">01</span>
+          </a>
+          <div class="work-card-copy">
+            <p class="work-kind">UNITY DOTS · PAUSED</p>
+            <h3><a href="{{ '/unity.html' | relative_url }}">Bee colony simulation</a></h3>
+            <p>A strategy prototype built around a large population of independently simulated bees.</p>
+            <p class="work-tools">Unity DOTS <span>·</span> C# <span>·</span> Burst</p>
+          </div>
+        </article>
+        <article class="work-card">
           <a class="work-cover" href="{{ '/thesis.html' | relative_url }}" aria-label="Open SurvivalScan project">
             <img src="{{ '/assets/covers/survivalscan.svg' | relative_url }}" alt="A game-like scanner view representing SurvivalScan." loading="lazy">
-            <span class="cover-index">01</span>
+            <span class="cover-index">02</span>
           </a>
           <div class="work-card-copy">
             <p class="work-kind">ENGINEERING THESIS · IN DEVELOPMENT</p>
@@ -32,25 +44,13 @@ description: Software developer from Poland working across software systems, int
         <article class="work-card">
           <a class="work-cover" href="{{ '/engine.html' | relative_url }}" aria-label="Open C++ game engine project">
             <img src="{{ '/assets/covers/engine.svg' | relative_url }}" alt="A minimal pixel-art scene representing the C++ game engine." loading="lazy">
-            <span class="cover-index">02</span>
+            <span class="cover-index">03</span>
           </a>
           <div class="work-card-copy">
             <p class="work-kind">PERSONAL PROJECT · EARLY DEVELOPMENT</p>
             <h3><a href="{{ '/engine.html' | relative_url }}">C++ game engine</a></h3>
             <p>A small 2D engine built from scratch, exploring ECS architecture and the foundations of a game loop.</p>
             <p class="work-tools">C++17 <span>·</span> ECS <span>·</span> raylib</p>
-          </div>
-        </article>
-        <article class="work-card">
-          <a class="work-cover" href="{{ '/unity.html' | relative_url }}" aria-label="Open bee colony simulation project">
-            <img src="{{ '/assets/entities.png' | relative_url }}" alt="Bee colony simulation interface with more than 100,000 entities." loading="lazy">
-            <span class="cover-index">03</span>
-          </a>
-          <div class="work-card-copy">
-            <p class="work-kind">UNITY DOTS · PAUSED</p>
-            <h3><a href="{{ '/unity.html' | relative_url }}">Bee colony simulation</a></h3>
-            <p>A strategy prototype built around a large population of independently simulated bees.</p>
-            <p class="work-tools">Unity DOTS <span>·</span> C# <span>·</span> Burst</p>
           </div>
         </article>
         <article class="work-card">

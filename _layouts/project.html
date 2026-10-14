@@ -23,8 +23,9 @@ layout: default
   </header>
 
   {% if project_media %}
-  <section class="media-gallery{% if project_media.size == 1 %} media-gallery--single{% endif %}" aria-label="Project media">
+  <section class="media-gallery{% if project_media.size == 1 %} media-gallery--single{% endif %}{% if media_layout == 'stories' or page.media_layout == 'stories' %} media-gallery--stories{% endif %}" aria-label="Project media">
     {% for item in project_media %}
+      <article class="media-entry">
       {% if item.type == 'image' %}
         <figure class="media-figure">
           <a class="media-image media-image--{{ item.fit | default: 'contain' }}" href="{{ item.src | relative_url }}" target="_blank" rel="noreferrer" aria-label="Open full-size image{% if item.alt %}: {{ item.alt | escape }}{% endif %}">
@@ -34,7 +35,7 @@ layout: default
         </figure>
       {% elsif item.type == 'video' %}
         <figure class="media-figure">
-          <video class="media-video" controls playsinline preload="metadata"{% if item.poster %} poster="{{ item.poster | relative_url }}"{% endif %}>
+          <video class="media-video" controls playsinline preload="metadata" aria-label="{{ item.caption | default: project_title | escape }}"{% if item.poster %} poster="{{ item.poster | relative_url }}"{% endif %}>
             <source src="{{ item.src | relative_url }}" type="video/mp4">
             Your browser does not support embedded video.
           </video>
@@ -48,6 +49,12 @@ layout: default
           {% if item.caption %}<figcaption>{{ item.caption }}</figcaption>{% endif %}
         </figure>
       {% endif %}
+      {% if item.description %}
+        <div class="media-description">
+          {% for paragraph in item.description %}<p>{{ paragraph | escape }}</p>{% endfor %}
+        </div>
+      {% endif %}
+      </article>
     {% endfor %}
   </section>
   {% endif %}
